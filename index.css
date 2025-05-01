@@ -1,0 +1,86 @@
+body{
+    background-color: #FFF1EA
+}
+ 
+.Cabecalho{
+    display: flex;
+    background: #D13F55;
+    width: 1000px;
+    height: 50px;
+    margin-top: 50px;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 5px;
+    margin-left: -8px;
+}
+
+.Haburguerbutom{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-right: 9px;
+}
+
+.Haburguerbutom span{
+    height: 4px;
+    background: #FFF1EA;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.GatoBombeiro{
+    display: flex;
+    border-top: 10px solid #D13F55;
+    border-left: 10px solid #D13F55;
+    border-right: 10px solid #D13F55;
+    border-bottom: 60px solid #D13F55;
+    border-radius: 10%;
+    margin-top: 80px;
+}
+
+.GatoDinheiro{
+    display: flex;
+    border-top: 10px solid #D13F55;
+    border-left: 10px solid #D13F55;
+    border-right: 10px solid #D13F55;
+    border-bottom: 60px solid #D13F55;
+    border-radius: 10%;
+    margin-top: 80px;
+}
+
+.GatoFormado{
+    display: flex;
+    border-top: 10px solid #D13F55;
+    border-left: 10px solid #D13F55;
+    border-right: 10px solid #D13F55;
+    border-bottom: 60px solid #D13F55;
+    border-radius: 10%;
+    margin-top: 80px;
+}
+
+.GatoFujao{
+    display: flex;
+    border-top: 10px solid #D13F55;
+    border-left: 10px solid #D13F55;
+    border-right: 10px solid #D13F55;
+    border-bottom: 60px solid #D13F55;
+    border-radius: 10%;
+    margin-top: 80px;
+}
+
+.Notices{
+    display: flex;
+    width: 300px;
+    right: 300px;
+    flex-direction: row;
+    align-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media 
