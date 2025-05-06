@@ -4,14 +4,32 @@ body{
  
 .Cabecalho{
     display: flex;
+    width: 100vw;
     background: #D13F55;
-    width: 1000px;
-    height: 50px;
-    margin-top: 50px;
     flex-direction: row;
     align-content: space-between;
     gap: 5px;
     margin-left: -8px;
+}
+.PngTopo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.TextoInicial{
+    display: flex;
+    font-family:'Times New Roman' 'serif';
+    font-weight: bold;
+    Color: #D13F55;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .Haburguerbutom{
@@ -38,9 +56,8 @@ body{
     border-top: 10px solid #D13F55;
     border-left: 10px solid #D13F55;
     border-right: 10px solid #D13F55;
-    border-bottom: 60px solid #D13F55;
+    border-bottom: 150px solid #D13F55;
     border-radius: 10%;
-    margin-top: 80px;
 }
 
 .GatoDinheiro{
@@ -48,9 +65,9 @@ body{
     border-top: 10px solid #D13F55;
     border-left: 10px solid #D13F55;
     border-right: 10px solid #D13F55;
-    border-bottom: 60px solid #D13F55;
+    border-bottom: 150px solid #D13F55;
     border-radius: 10%;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
 .GatoFormado{
@@ -58,9 +75,9 @@ body{
     border-top: 10px solid #D13F55;
     border-left: 10px solid #D13F55;
     border-right: 10px solid #D13F55;
-    border-bottom: 60px solid #D13F55;
+    border-bottom: 150px solid #D13F55;
     border-radius: 10%;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
 .GatoFujao{
@@ -68,19 +85,25 @@ body{
     border-top: 10px solid #D13F55;
     border-left: 10px solid #D13F55;
     border-right: 10px solid #D13F55;
-    border-bottom: 60px solid #D13F55;
+    border-bottom: 150px solid #D13F55;
     border-radius: 10%;
-    margin-top: 80px;
+    margin-top: 10px;
+}
+
+.GatoMaconha{
+    display: flex;
+    border-top: 10px solid #D13F55;
+    border-left: 10px solid #D13F55;
+    border-right: 10px solid #D13F55;
+    border-bottom: 150px solid#D13F55;
+    border-radius: 10%;
+    margin-top: 10px;
 }
 
 .Notices{
     display: flex;
-    width: 300px;
-    right: 300px;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    align-content: space-around;
-    margin-left: 10px;
-    margin-right: 10px;
+    flex-wrap: wrap;
 }
-
-@media 
