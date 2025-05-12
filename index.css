@@ -18,6 +18,22 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
+.Anuncio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: -130px;
+    margin-bottom:1px;
+    border-top: 2px solid #6e313b;
+    border-left: 2px solid #6e313b;
+    border-right: 2px solid #6e313b;
+    border-bottom: 2px solid#6e313b;
+    border-radius: 4%;
+
+}
 .TextoInicial{
     display: flex;
     font-family:'Times New Roman' 'serif';
@@ -50,56 +66,17 @@ body{
     border-radius: 2px;
     transition: 0.3s;
 }
-
-.GatoBombeiro{
+.Gato{
     display: flex;
-    border-top: 10px solid #D13F55;
-    border-left: 10px solid #D13F55;
-    border-right: 10px solid #D13F55;
-    border-bottom: 150px solid #D13F55;
-    border-radius: 10%;
-}
-
-.GatoDinheiro{
-    display: flex;
-    border-top: 10px solid #D13F55;
-    border-left: 10px solid #D13F55;
-    border-right: 10px solid #D13F55;
-    border-bottom: 150px solid #D13F55;
-    border-radius: 10%;
-    margin-top: 10px;
-}
-
-.GatoFormado{
-    display: flex;
-    border-top: 10px solid #D13F55;
-    border-left: 10px solid #D13F55;
-    border-right: 10px solid #D13F55;
-    border-bottom: 150px solid #D13F55;
-    border-radius: 10%;
-    margin-top: 10px;
-}
-
-.GatoFujao{
-    display: flex;
-    border-top: 10px solid #D13F55;
-    border-left: 10px solid #D13F55;
-    border-right: 10px solid #D13F55;
-    border-bottom: 150px solid #D13F55;
-    border-radius: 10%;
-    margin-top: 10px;
-}
-
-.GatoMaconha{
-    display: flex;
+    overflow: hidden;
     border-top: 10px solid #D13F55;
     border-left: 10px solid #D13F55;
     border-right: 10px solid #D13F55;
     border-bottom: 150px solid#D13F55;
     border-radius: 10%;
     margin-top: 10px;
+    margin: 5px;
 }
-
 .Notices{
     display: flex;
     justify-content: center;
