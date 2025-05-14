@@ -11,7 +11,7 @@ body{
     gap: 5px;
     margin-left: -8px;
 }
-.PngTopo{
+.imagemTopo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,6 @@ body{
     flex-wrap: wrap;
     float: right;
     margin-top: -130px;
-    margin-bottom:1px;
     border-top: 2px solid #6e313b;
     border-left: 2px solid #6e313b;
     border-right: 2px solid #6e313b;
@@ -46,6 +45,7 @@ body{
     flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 2px white;
 }
 
 .Haburguerbutom{
@@ -69,11 +69,10 @@ body{
 .Gato{
     display: flex;
     overflow: hidden;
-    border-top: 10px solid #D13F55;
-    border-left: 10px solid #D13F55;
-    border-right: 10px solid #D13F55;
-    border-bottom: 150px solid#D13F55;
-    border-radius: 10%;
+    border-top: 2px solid #D13F55;
+    border-left: 2px solid #D13F55;
+    border-right: 2px solid #D13F55;
+    border-bottom: 90px solid#D13F55;
     margin-top: 10px;
     margin: 5px;
 }
@@ -83,4 +82,50 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.title {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 6px;
+    left: 10px;
+    font-family:'Times New Roman' 'serif';
+    color: #FFF1EA;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 6px 2px 5px black;
+}
+
+.imagemcomtexto {
+    position: relative;
+    display: inline-block;
+}
+
+.textonoticia {
+    position: absolute;
+    flex-direction: center;
+    top: 173px;
+    left: 2px;
+    font-family:'Times New Roman' 'serif';
+    color: #FFF1EA;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 5px 2px 5px black;
+}
+.declaracao {
+    position: absolute;
+    flex-direction: center;
+    top: 240px;
+    left: 10px;
+    font-family:'Times New Roman' 'serif';
+    color: #FFF1EA;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 5px 2px 5px black;
 }
